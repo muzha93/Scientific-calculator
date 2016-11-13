@@ -10,9 +10,9 @@
 		A15DFCE41DD4C6CA00E62AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DFCE31DD4C6CA00E62AAB /* AppDelegate.swift */; };
 		A15DFCE61DD4C6CA00E62AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DFCE51DD4C6CA00E62AAB /* ViewController.swift */; };
 		A15DFCE91DD4C6CA00E62AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15DFCE71DD4C6CA00E62AAB /* Main.storyboard */; };
-		A15DFCEC1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15DFCEA1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodeld */; };
 		A15DFCEE1DD4C6CA00E62AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15DFCED1DD4C6CA00E62AAB /* Assets.xcassets */; };
 		A15DFCF11DD4C6CA00E62AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15DFCEF1DD4C6CA00E62AAB /* LaunchScreen.storyboard */; };
+		A15DFCF91DD4DD5400E62AAB /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DFCF81DD4DD5400E62AAB /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		A15DFCE31DD4C6CA00E62AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A15DFCE51DD4C6CA00E62AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A15DFCE81DD4C6CA00E62AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A15DFCEB1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scientific_calculator.xcdatamodel; sourceTree = "<group>"; };
 		A15DFCED1DD4C6CA00E62AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15DFCF01DD4C6CA00E62AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A15DFCF21DD4C6CA00E62AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15DFCF81DD4DD5400E62AAB /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				A15DFCED1DD4C6CA00E62AAB /* Assets.xcassets */,
 				A15DFCEF1DD4C6CA00E62AAB /* LaunchScreen.storyboard */,
 				A15DFCF21DD4C6CA00E62AAB /* Info.plist */,
-				A15DFCEA1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodeld */,
+				A15DFCF81DD4DD5400E62AAB /* CalculatorBrain.swift */,
 			);
 			path = "Scientific calculator";
 			sourceTree = "<group>";
@@ -140,8 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15DFCE61DD4C6CA00E62AAB /* ViewController.swift in Sources */,
+				A15DFCF91DD4DD5400E62AAB /* CalculatorBrain.swift in Sources */,
 				A15DFCE41DD4C6CA00E62AAB /* AppDelegate.swift in Sources */,
-				A15DFCEC1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,19 +305,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A15DFCEA1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A15DFCEB1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodel */,
-			);
-			currentVersion = A15DFCEB1DD4C6CA00E62AAB /* Scientific_calculator.xcdatamodel */;
-			path = Scientific_calculator.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A15DFCD81DD4C6CA00E62AAB /* Project object */;
 }
